@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_category"
+            android:title="Shop by Category" />
+        <item
+            android:id="@+id/nav_deal"
+            android:title="Today's Deals" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:title="Your Orders" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:title="your Wish List" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="Your Account" />
+
+        <item
+            android:id="@+id/gift"
+            android:title="Gifts Cards"
+            />
+
+        <item
+            android:id="@+id/try_prime"
+            android:title="Try Prime"/>
+
+
+    </group>
+
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_customer"
+                android:icon="@drawable/india"
+                android:title="Customer Service" />
+
+        </menu>
+    </item>
+
+</menu>

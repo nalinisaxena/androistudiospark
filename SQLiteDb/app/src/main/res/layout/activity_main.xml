@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.nalini.sqlitedb.MainActivity">
+
+
+    <EditText
+            android:id="@+id/etxName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Name"
+            android:inputType="text" />
+
+
+
+        <EditText
+            android:id="@+id/etxNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Phone number"
+            android:inputType="number"
+            android:maxLength="10"/>
+
+    <EditText
+            android:id="@+id/etxEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Email" />
+
+        <EditText
+            android:id="@+id/etxCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the City" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:text="Save to DB"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@android:color/holo_purple"
+        android:text="View the Data"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
+
+
+</LinearLayout>

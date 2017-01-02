@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/signup_id"
+            android:title="SignUp">
+
+        </item>
+
+        <item
+            android:id="@+id/login_id"
+            android:title="Login">
+
+        </item>
+
+        <item
+            android:id="@+id/search_man"
+            android:title="Info of Customer">
+
+        </item>
+
+
+
+    </group>
+
+    <item android:title="Customer Info">
+
+    <menu>
+        <item
+
+            android:title="Customer signup"
+            android:id="@+id/customer_id">
+            </item>
+
+
+        <item
+            android:id="@+id/update_man"
+            android:title="Update info">
+
+        </item>
+
+    </menu>
+
+    </item>
+
+
+
+
+    </menu>

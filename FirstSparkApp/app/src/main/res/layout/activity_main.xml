@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="160dp"
+         android:id="@+id/image"
+         android:src="@drawable/spark"/>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="instructions"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image"
+        android:textSize="30sp"
+        android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:text="1) Arrange chairs properly."
+            android:layout_below="@id/textView2"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="2) Kindly shut down workstation before leaving."
+        android:layout_below="@id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="3) Mark your attendance."
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textView4"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="4) Do Entry in student book."
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView5"
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>
+
+

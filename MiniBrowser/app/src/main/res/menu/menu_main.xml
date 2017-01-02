@@ -1,0 +1,75 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nalini.minibrowser.MainActivity">
+    <item
+        android:id="@+id/new_tab"
+        android:orderInCategory="100"
+        android:title="New tab"
+        app:showAsAction="never" />
+
+    <item
+
+        android:id="@+id/book"
+        android:orderInCategory="100"
+        android:title="Bookmarks"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/recenttab"
+        android:orderInCategory="100"
+        android:title="Recent tabs"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/downloads"
+        android:orderInCategory="100"
+        android:title="Downloads"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/Share"
+        android:orderInCategory="100"
+        android:title="Share..."
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/find"
+        android:orderInCategory="100"
+        android:title="Find in page"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/addtohome"
+        android:orderInCategory="100"
+        android:title="Add to Home screen "
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="@string/help_feedback"
+        app:showAsAction="never"/>
+
+
+</menu>

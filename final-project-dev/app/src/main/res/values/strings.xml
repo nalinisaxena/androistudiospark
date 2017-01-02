@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">S3</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add">Add</string>
+    <string name="save_text">Save</string>
+    <string name="title_activity_data_list">DataListActivity</string>
+    <string name="title_activity_search_contact">SearchContactActivity</string>
+    <string name="title_activity_update_contact">UpdateContactActivity</string>
+    <string name="ser_text">Search</string>
+    <string name="dei_text">Delete</string>
+    <string name="mb_text">Mobile Here</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_salesman">Salesman</string>
+    <string name="t_text">Temporary Address</string>
+
+    <string name="user_text">UserName</string>
+    <string name="usere_text">E-mail Address</string>
+    <string name="userm_text">Mobile No</string>
+    <string name="userp_text">Permanent Address</string>
+    <string name="usert_text">Temporary Address</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+    <string name="go_to_map">Go to Map</string>
+    <string name="add_new_customer_information">Add New Customer Information</string>
+
+</resources>

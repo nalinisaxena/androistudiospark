@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+
+    android:background="@android:color/holo_blue_bright">
+
+    <EditText
+
+        android:id="@+id/etxInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="please enter your name" />
+
+    <Button
+
+        android:id="@+id/btnOkay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etxInput"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Okay"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <ImageView
+
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnOkay"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sun" />
+
+    <SeekBar
+
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="80dp"
+        android:progressDrawable="@drawable/seekbar"
+
+
+        android:max="360" />
+
+
+
+
+</RelativeLayout>

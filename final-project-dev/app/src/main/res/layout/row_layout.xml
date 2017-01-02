@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    
+    
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_name"
+        android:text="Name"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_mob"
+        android:text="Mobile no"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_email"
+        android:text="Email_Id"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_paddress"
+        android:text="Address1 (10 AM to 5 PM)"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_taddress"
+        android:text="Address2 (6 PM to 9 PM)"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+</LinearLayout>

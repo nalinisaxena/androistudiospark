@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentExample</string>
+    <string name="chooser_title">Share this photo with this</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/okay"
+        android:text="Okay"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+
+        android:id="@+id/img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_android_black_24dp"
+        android:transitionName="Image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+
+    <TextView
+
+        android:id="@+id/txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implict Intent"
+        android:layout_marginTop="350dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+
+        android:id="@+id/etxmsg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/txtMsg"
+        android:hint="Enter the message"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_below="@id/etxmsg"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

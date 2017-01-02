@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <EditText
+
+        android:id="@+id/etxName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+
+        android:id="@+id/editLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etxName"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+
+        android:id="@+id/edtphon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLast"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <EditText
+
+        android:id="@+id/extEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtphon"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+
+
+        />
+
+    <EditText
+        android:id="@+id/extpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/extEmail"
+        android:hint="Password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etxBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/extpass"
+        android:hint="BirthDay"
+        android:inputType="datetime" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/extEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="140dp"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="Sign in"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
+
