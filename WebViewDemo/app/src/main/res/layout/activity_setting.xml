@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SwitchABColor"
+        android:text="Change Action Bar Color"
+        android:layout_marginLeft="16dp"
+        android:checked="false"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SwitchLoadimages"
+        android:text="Load images automatically"
+        android:layout_marginLeft="16dp"
+        android:checked="false"/>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SwichJavaScript"
+        android:text="Enabled java script"
+        android:layout_marginLeft="16dp"
+        android:checked="true"/>
+
+
+ </LinearLayout>
